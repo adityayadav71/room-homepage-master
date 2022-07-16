@@ -1,0 +1,26 @@
+@media all and (max-width: 425px) {
+  .navbar {
+    top: 0;
+    left: 0;
+    gap: 0;
+    width: 100%;
+    padding: 5rem 3rem;
+  }
+  .nav-list {
+    display: none;
+  }
+  .mobile {
+    display: flex;
+    gap: 3.6rem;
+  }
+  .mobile-nav {
+    transition: all 0.3s ease-in;
+  }
+  
+  .mobile-menu {
+    justify-self: flex-start;
+  }
+  .logo {
+    margin: auto;
+  }
+}
